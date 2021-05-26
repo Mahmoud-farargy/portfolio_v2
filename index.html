@@ -1,0 +1,2113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <title>Mahmoud Farargy | Front-End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Mahmoud Farargy | Front-End Developer | front end web developer | web developer | El-farargy">
+    <meta name="author" content="Mahmoud Farargy">
+    <meta data-react-halmet="true" name="description" content="Mahmoud Farargy | Front-End Developer | front end web developer | web developer | El-farargy">
+    <style data-styled ="active" data-styled-version="5.1.0"></style>
+    <!-- Icon -->
+    <meta name="icon" sizes="210x210" href="images/logo.jpg" />
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/splideCSS-min.css" type="text/css">
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/plugin.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/color.css" type="text/css">
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" type="text/css">
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WNNLD95');</script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/splideJS-min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/ender.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/supersized.3.2.7.min.js"></script>
+    <script src="js/filtergallery.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/customJS.js"></script>
+    <script type="text/javascript">
+
+        jQuery(function ($) {
+
+            $.supersized({
+
+                // Functionality
+                slide_interval: 3000,		// Length between transitions
+                transition: 1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                transition_speed: 700,		// Speed of transition
+
+                // Components							
+                slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                slides: [			// Slideshow Images
+                                                    { image: 'images-slider/wide1.jpg', url: '' },
+                                                    { image: 'images-slider/wide2.jpg', url: '' },
+													{ image: 'images-slider/wide3.jpg', url: '' },
+                ]
+
+            });
+        });
+        $(document).ready(()=>{
+            const splideOptions = {
+                type  : 'loop',
+                autoplay    : true,
+                pauseOnHover: true,
+                interval: 5000,
+                lazyLoad: true,
+                cover  : true,
+                height : '100%',
+                width:'100%',
+                perPage: 1,
+            }
+            new Splide( ".splide" , splideOptions).mount();
+            new Splide( ".visipointCarousel" , splideOptions).mount();
+            new Splide( ".googleCarousel" , splideOptions).mount();
+            new Splide( ".instagramCarousel", splideOptions).mount();
+            new Splide( ".xypoCarousel", splideOptions).mount();
+            new Splide( ".spotifyCarousel", splideOptions).mount();
+            new Splide( ".blogenCarousel", splideOptions).mount();
+            new Splide( ".netflixCarousel", splideOptions).mount();
+            new Splide( ".hotelResortCarousel", splideOptions).mount();
+            new Splide( ".amazonCarousel", splideOptions).mount();
+            new Splide( ".wordBeaterCarousel", splideOptions).mount();
+            new Splide( ".mizuxeCarousel", splideOptions).mount();
+            new Splide( ".burgerioCarousel", splideOptions).mount();
+            new Splide( ".traviaCarousel", splideOptions).mount();
+            new Splide( ".splendifyCarousel", splideOptions).mount();
+            new Splide( ".notesCarousel", splideOptions).mount();
+            new Splide( ".budgetCarousel", splideOptions).mount();
+            new Splide( ".lyricsFinderCarousel", splideOptions).mount();
+            new Splide( ".dictionaryCarousel", splideOptions).mount();
+            new Splide( ".appchirpCarousel", splideOptions).mount();
+            new Splide( ".soundcloudCarousel", splideOptions).mount();
+            new Splide( ".portfolioV1Carousel", splideOptions).mount();
+            
+            
+    });
+    </script>
+
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <!-- <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script> -->
+    <!-- <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script> -->
+    <!-- <script src="js/rev-setting-1.js"></script> -->
+</head>
+
+<body id="homepage" class="light">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNNLD95"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <div class="loader"></div>
+    <!-- day/night switch -->
+    <label id="dNSwitch" class="switch">
+        <input type="checkbox" id="slider">
+        <span class="slider round"></span>
+    </label>
+    <div id="wrapper">
+        <!-- header begin -->
+        <header>
+            <div class="container">
+                <span id="menu-btn"></span>
+                
+                <div id="logo">
+                    <div class="inner">
+                        <a href="index.html">
+                            <img src="images/logo2.jpg" alt="logo"></a>
+                    </div>
+                </div>
+
+                <!-- mainmenu begin -->
+                <nav>
+                    <ul id="mainmenu">
+ 
+                        <li><a href="#revolution-slider">Home</a></li>
+                        <li><a href="#page-about">About</a></li>
+                        <li><a href="#page-skills">Skills</a></li>
+                        <li><a href="#page-work">Work</a></li>
+                        <li><a href="#page-contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a  class="dropdown-toggle text-uppercase css-btn-nav-config nav-link" style="cursor:pointer;">Certifications</a>
+                            <ul class="dropdown-menu add-box-shadow">
+                                <li class="dropdown-item"><a href="./CV/Work_Certificate_03_09_2021.jpg" target="_blank">Work Experience</a></li>
+                                <li class="dropdown-item"><a href="./CV/ETSNGTCR_0000000033555268.pdf" target="_blank">TOFEL iBT</a></li>
+                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/responsive-web-design" target="_blank">Responsive Web Design</a></li>
+                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms & <br>Data Structures </a></li>
+                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/front-end-libraries" target="_blank">Front End Libraries</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <!-- mainmenu close -->
+
+
+            </div>
+        </header>
+        <!-- header close -->
+
+
+        <!-- revolution slider begin -->
+        <div class="fullwidthbanner-container flex-column">
+            <!--  BACKGROUND IMAGE -->
+            <!-- <img class="mobile-only bg-cover w-100 h-100" style="opacity: 0.5;" src="images/coffee-laptop-min.jpg">  -->
+                <div class="video-overlay desktop-only"></div>
+                <video class="bg-video bg-cover desktop-only w-100 h-100" autoplay="autoplay" loop autobuffer="autobuffer" muted poster="">
+                    <!-- <source src="http://themenesia.com/video/0352_morningsun_540.mp4" type="video/mp4" />
+                    <source src="http://themenesia.com/video/0352_morningsun_540.webm" type="video/webm" />
+                    <source src="http://themenesia.com/video/0352_morningsun_540.ogv" type="video/ogg" /> -->
+                    <source src="videos/video.mp4" type="video/mp4" />
+                    <source src="videos/0352_morningsun_540.webm" type="video/webm" />
+                    <source src="videos/0352_morningsun_540.ogv" type="video/ogg" />
+                </video> 
+
+            <div id="revolution-slider">
+                <ul>
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="images-slider/thumbs/thumb1.jpg">
+                       
+                        
+                        <div class="banner-inner flex-column flex-center">
+                            <h1 class="tp-caption ultra-big-white customin customout start intro-container"
+                                data-x="center"
+                                data-y="center"
+                                data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:100% 0%;"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin100% 50%;"
+                                data-speed="400"
+                                data-start="400"
+                                data-easing="easeInOutExpo"
+                                data-endspeed="300">
+                                Hi,I'm <span class="id-color">mahmoud</span>
+                            </h1>
+
+                            <div class="tp-caption sfr teaser"
+                                data-x="center"
+                                data-y="336"
+                                data-speed="400"
+                                data-start="800"
+                                data-easing="easeInOutExpo">
+                                A front end web developer who is specialized in building robust websites and web applications. Lover of code, coffee and lack of sleep. <br/> Take a look at some of my work, and if you like it, feel free to contact me.
+                            </div>
+
+                            <div class="tp-caption lfb flex-row"
+                                data-x="center"
+                                data-y="390"
+                                data-speed="400"
+                                data-start="1200"
+                                data-easing="easeInOutExpo">
+                                <a href="#page-work" class="btn-slider mr-3">My portfolio</a>&nbsp;&nbsp;
+                                <a href="#page-contact" class="btn-slider solid">Contact me</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="images-slider/thumbs/thumb1.jpg">
+                        <img src="images/coffee-laptop-min.jpg">
+                        <div class="tp-caption ultra-big-white customin customout start"
+                            data-x="center"
+                            data-y="center"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="400"
+                            data-start="400"
+                            data-easing="easeInOutExpo"
+                            data-endspeed="300">
+                            Tit<span class="id-color">le</span>
+                        </div>
+
+                        <div class="tp-caption sfr teaser"
+                            data-x="center"
+                            data-y="336"
+                            data-speed="400"
+                            data-start="800"
+                            data-easing="easeInOutExpo">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore laborum atque totam quidem. Laboriosam, debitis!
+                        </div>
+
+                        <div class="tp-caption lfb"
+                            data-x="center"
+                            data-y="390"
+                            data-speed="400"
+                            data-start="1200"
+                            data-easing="easeInOutExpo">
+                            <a href="#" class="btn-slider">Our Services</a>&nbsp;&nbsp;
+                            <a href="#" class="btn-slider solid">Learn More</a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- revolution slider close -->
+                <!-- <img class="w-100 h-100" src="images/coffee-laptop-min.jpg"> -->
+
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+
+            <!-- about us section begin -->
+            <section id="page-about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInLeft">A LITTLE BIT ABOUT ME
+                        	<span class="small-border"></span>
+                            </h1>
+                            <p class="animated" data-animation="fadeIn">
+                                Hey! My name is Mahmoud. I'm a self-taught web developer with a strong passion for front end
+                                development. I graduated from <a href="https://tanta.edu.eg/en/" target="_blank"><span>Tanta University</span></a> in Egypt and I essentially have a collage degree in <a href="http://com.tanta.edu.eg/en/stu-incom.aspx" target="_blank"><span>business administration</span></a> but I found myself more passionate
+                                about coding and developing websites. I aspire toward a career that will allow me to channel my creativity through crafting
+                                web pages and engaging experiences.
+                            </p>
+                            <div class="spacer-single"></div>
+                            
+                        <div class="de_tab">
+                            <ul class="de_nav">
+                                <li><span class="active">Education</span></li>
+                                <li><span>Experience</span></li>
+                                <li><span>Resources</span></li>
+                                <li><span>Family</span></li>
+                                <li><span>Tools</span></li>
+                            </ul>
+    
+                            <div class="de_tab_content">
+    
+                                <summary id="tab1">
+                                    <h5 class="mb-4 text-align-start">Education</h5>
+                                    <div class="timeline-main">
+                                        <div class="timeline-container timeline-left">
+                                          <div class="timeline-content">
+                                            <h2>2013 - 2017</h2>
+                                            <h5>BACHELOR'S DEGREE IN COMMERCE
+                                                (BUSINESS ADMINISTRATION)</h5>
+                                            <strong>Tanta University, Gharbia, Egypt</strong>
+                                            <p>Started by studying industrial relations and then
+                                                transferred to Commerce college.</p>
+                                          </div>
+                                        </div>
+                                        <div class="timeline-container timeline-right">
+                                          <div class="timeline-content">
+                                            <h2>2019 - 2020</h2>
+                                            <h5>Online Udemy courses I took</h5>
+                                            <ul>
+                                                <li class="bullet--1">Vue – The Complete Guide (w/ Router, Vuex,
+                                                    Composition API) by Maximilian
+                                                    Schwarzmuller.</li>
+                                                <li class="bullet--1">React – The Complete Guide (incl. Hooks,
+                                                    React Router, Redux) by Maximilian
+                                                    Schwarzmuller.</li>
+                                                <li class="bullet--1">The Complete Javascript Course 2020: From
+                                                    Zero to Expert by Jonas Schmedtmann.</li>
+                                                    <li class="bullet--1">The Complete 2020 Web Development
+                                                        Bootcamp by Angela Yu.</li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </summary>
+    
+                                <summary id="tab2">
+                                    <h5 class="mb-4 text-align-start">Work Experience</h5>
+                                    <div class="timeline-main">
+                                        <div class="timeline-container timeline-left">
+                                          <div class="timeline-content">
+                                            <h2>2020 - 2021</h2>
+                                            <h5>ProwCrew</h5>
+                                            <strong>Front-end developer, Alexandria, Egypt</strong>
+                                            <ul>
+                                                <li class="bullet--1">Implemented enhancements that improved
+                                                    web functionality and responsiveness.</li>
+                                                <li class="bullet--1">Worked closely with programmers and
+                                                    backend developers to meet project
+                                                    requirements, goals, and desired functionality.</li>
+                                                <li class="bullet--1">Developed App using Vue.js, Electron.js,
+                                                    Javascript, CSS, SCSS, and HTML.</li>  
+                                            </ul>
+                                           
+                                          </div>
+                                        </div>
+                                      </div>
+                                </summary>
+    
+                                <summary id="tab3">
+                                       
+                                        <article>
+                                            <h5 class="mb-4">Resources that have helped me throughout my self-teaching process</h5>
+                                            <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> Udemy courses:</h6>
+                                               <p>These courses were highly effective and advantageous, they have played a huge part in helping me reach the level of knowledge where I'm at now as they provided a full in-depth curriculum of each language and framework with an excellent explanation of each lesson in a way that is understandable and easy to follow.<br>
+                                                I've bought a variety of Udemy courses from different instructors, watched them, understood each point presented and applied what I've learned in my text editor.
+                                               </p> 
+                                            
+                                            <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> FreeCodeCamp website:</h6>
+                                                <p>
+                                                I've actually spent countless hours learning on this website alone. In this period, I managed to completely
+                                                finish the client-side section and the challenges that are provided there. The hardest part was the intermediate Javascript algorithms but I absolutely enjoyed every second of that time and got familiar with solving problems and knew that in order to unravel the most complex algorithm you must divide it into little chucks then solve each part individually and eventually create the entire picture which is the web application that's intended to be done. <a href="https://www.freecodecamp.org/farargy" target="_blank"><span>My timeline on freecodecamp</span></a>
+                                                </p>
+                        
+                                            <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> Youtube Tutorials:</h6>
+                                                <p>
+                                                   Before learning a language or framework I like to check out crash courses about it on YouTube to understand its basic concepts then gradually pave my way for learning more advanced concepts and dive deeper in it from there.<br>
+                                                   Also, I used to refer to online tutorials whenever I get stuck in making a certain effect or feature then I make sure to get a full grasp of it so I can apply it without problems next time.
+                                                </p>
+                                            
+                                            <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> Online Articles & PDFs:</h6>
+                                                <p>
+                                                   In my spare time, I like to read articles about the web development industry, how the internet works and how to implement some features into a web page or make an element appear in a certain way.
+                                                </p>
+                                        </article>
+                              
+                                </summary>
+    
+                                <summary id="tab4">
+                                    <article>
+                                        <h5 class="mb-4">A little bit about my family</h5>
+                                        <p>I am a son of two amazing parents. My dad is a doctor and my mom is a social worker, I have three sisters we show to each other nothing but respect and love.</p>
+                                    </article>
+                                </summary>
+
+                                <summary id="tab5">
+                                   
+                                    <article>
+                                        <h5 class="mb-4">Tools That I use</h5>
+                                        <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> Devices:</h6>
+                                        <p>- MacBook Air (Retina, 13-inch, 2020) 500GB Silver</p>
+                                        <p>- Dell U3818DW Monitor</p>
+                                        <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> Software:</h6>
+                                        <p>- Visual Studio Code</p>
+                                        <p>- Chrome Developer Tools</p>
+                                        <p>- Node</p>
+                                        <p>- Git</p>
+                                    </article>
+                                </summary>
+    
+                            </div>
+    
+                        </div>
+                        </div>
+                        <div class="about-bottom">
+                         
+                        </div>
+                     
+                    </div>
+                </div>
+            </section>
+            <!-- about us section close -->
+
+
+
+            <!-- pricing section begin -->
+            <section id="page-skills" data-speed="5" data-type="background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInLeft">What skills do I have
+                        	<span class="small-border"></span>
+                            </h1>
+                            <p class="animated" data-animation="fadeIn">
+                                I've been learning web development for nearly two years. Here are the technologies I learned so far.<br>
+                                And I'm always eager to discover and learn more in this fast paced industry.
+                            </p>
+                            <div class="spacer-single"></div>
+                            <div class="pricing-3-col flex-row skills-container pricing-dark animated" data-animation="fadeInUp">
+                                <!-- pricing box begin -->
+                                <div class="pricing-box skills-box">
+                                    <ul>
+                                        <li class="title-row">
+                                            <h4>Languages</h4>
+                                        </li>
+                                        <li class="price-row">
+                                            <img loading="lazy" src="images/skills/html.png" />
+                                            <span>HTML</span>
+                                        </li>
+                                        <li>
+                                            <img loading="lazy" src="images/skills/css.png" />
+                                            <span>CSS</span>
+                                        </li>
+                                        <li class="price-row">
+                                            <img loading="lazy" src="images/skills/js.png" />
+                                            <span>Javascript</span>
+                                        </li>
+                                        <li class="empty-row desktop-only"></li>
+                                    </ul>
+                                </div>
+                                <!-- pricing box close -->
+
+                                <!-- pricing box begin -->
+                                <div class="pricing-box skills-box">
+                                    <ul>
+                                        <li class="title-row">
+                                            <h4>Frameworks</h4>
+                                        </li>
+                                        <li class="price-row">
+                                            <img loading="lazy" src="images/skills/jquery.png" />
+                                            <span>jQuery</span>
+                                        </li>
+                                        <li>
+                                            <img loading="lazy" src="images/skills/bootstrap.png" />
+                                            <span>bootstrap</span>
+                                        </li>
+                                        <li class="price-row">
+                                            <img loading="lazy" src="images/skills/vue.png" />
+                                            <span>Vue.js</span>
+                                        </li>
+                                        <li class="">
+                                            <img loading="lazy" src="images/skills/react.png" />
+                                            <span>React.js</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- pricing box close -->
+
+                                <!-- pricing box begin -->
+                                <div class="pricing-box skills-box">
+                                    <ul>
+                                        <li class="title-row">
+                                            <h4>Preprocessors & Tools</h4>
+                                        </li>
+                                        <li class="price-row">
+                                            <img loading="lazy" src="images/skills/sass.png" />
+                                            <span>SASS</span>
+                                        </li>
+                                        <li>
+                                            <img loading="lazy" src="images/skills/github.png" style="background-color: #111; border-radius: 50%;"/>
+                                            <span>Github</span>
+                                        </li>
+                                        <li class="price-row">
+                                            <img loading="lazy" src="images/skills/git.png" />
+                                            <span>Git</span>
+                                        </li>
+                                        <li>
+                                            <img loading="lazy" src="images/skills/firebase.png" />
+                                            <span>Firebase</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- pricing box close -->
+
+                                <div class="clearfix"></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- pricing section close -->
+
+
+            <!-- include section begin -->
+            <section id="page-include" data-speed="10" data-type="background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="animated resume-header" data-animation="fadeInLeft">CHECK OUT MY RÉSUMÉ!</h2>
+                            <div class="spacer-single"></div>
+                            <a class="secondary-btn text-center animated" data-animation="fadeInUp" href="./CV/my-cv.pdf" target="_blank">Grab a copy</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- include section close -->
+
+            <!-- testimonial section begin -->
+            <section id="testimonial-full" class="bg-id-color" data-speed="8" data-type="background">
+                <div class="spacer-double"></div>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="flexslider testi-slider animated" data-animation="fadeInDown">
+                            <ul class="slides">
+                                <li>
+                                    <blockquote>"Working with Mahmoud was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients."<small>Dave Pearson</small><span>Senior Developer</span></blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>"Mahmoud's talent and experience proved immensely valuable for our latest web project. He was involved from the very beginning, providing advice and guidance even before we signed the proposal. The work we received from him was top-notch, thoroughly documented, and full of touches that show his commitment to quality. I can't recommend him highly enough."<small>Tony Hyypolite</small><span>Fullstack Developer</span></blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>"It has been a real pleasure working with Mahmoud. He has been very professional and very clear in all communications, which I appreciate.."<small>Hassen Magdy</small><span>My Ex boss - Lead Developer</span></blockquote>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="spacer-double"></div>
+                </div>
+
+            </section>
+            <!-- testimonial section begin -->
+
+            <!-- services section begin -->
+            <section id="page-work" data-speed="8" data-type="background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInLeft">Some Things I've done
+                        	<span class="small-border"></span>
+                            </h1>
+                            <p class="animated" data-animation="fadeIn">
+                                (more coming soon)
+                            </p>
+                            <div class="spacer-single"></div>
+                        </div>
+                        <div class="animated" data-animation="fadeInRight">
+                            <div >
+                                <ul id="filters">
+                                    <li><a href="#" data-filter="*" class="selected">Show all</a></li>
+                                    <li><a href="#" data-filter=".javascript">Javascript</a></li>
+                                    <li><a href="#" data-filter=".react">React.js</a></li>
+                                    <li><a href="#" data-filter=".vue">Vue.js</a></li>
+                                    <li><a href="#" data-filter=".css">CSS</a></li>
+                                    <li><a href="#" data-filter=".bootstrap">Bootstrap</a></li>
+                                </ul>
+            
+                            </div>
+                        </div>
+                        <div id="gallery" class="gallery">
+                     
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item vue">
+                            <div class="work-project-container animated" data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/visipoint/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Vue.js</p>
+                                    <h4>Visitor Management System</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#visipointApp">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/instagram-clone/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js, Styled Components</p>
+                                    <h4>Instagram Clone</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#instaClone">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/spotify-clone/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js</p>
+                                    <h4>Spotify Clone</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#spotifyClone">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/amazon-clone/Capture2.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js, Bootstrap</p>
+                                    <h4>Amazon Clone</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#amazonClone">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item javascript">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/budget/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Javascript</p>
+                                    <h4>Budget Calculator</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#budget">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/netflix-clone/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js, SCSS</p>
+                                    <h4>Netflix Clone</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#netflix">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item vue">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/notes-keeper/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Vue.js</p>
+                                    <h4>Notes Keeper</h4>
+                                    <div class="primary-btn-box">
+                                        <button  data-toggle="modal" data-target="#notesKeeper">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item javascript">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/lyrics-finder/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Javascript</p>
+                                    <h4>Lyrics Finder</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#lyricsFinder">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item vue">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/dictionary/Capture2.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Vue.js</p>
+                                    <h4>Dictionary with over 10 languages</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#wordDictionary">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item css">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/travia/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>CSS</p>
+                                    <h4>Travia</h4>
+                                    <div class="primary-btn-box">
+                                        <button  data-toggle="modal" data-target="#travia">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/google-clone/Capture1.PNG);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>CSS</p>
+                                    <h4>Google Clone</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#googleClone">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item vue">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/appchirp/Capture1.PNG);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Vue.js</p>
+                                    <h4>13+ Useful Tools All In One App</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#appChirp">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item css">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/xypo/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>CSS</p>
+                                    <h4>Xypo</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#xypo">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item bootstrap">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/splendify/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Bootstrap</p>
+                                    <h4>Splendify</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#splendify">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/burger-builder/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js</p>
+                                    <h4>Burger Buidler</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#burgerBuilder">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/speed-test/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js</p>
+                                    <h4>Typing Speed Test</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#wordBeater">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/summer-resort/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js</p>
+                                    <h4>Hotel Reservation Site</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#hotelResort">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item bootstrap">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/mizuxe/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Bootstrap</p>
+                                    <h4>Mizuxe</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#mizuxe">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item bootstrap">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/blogen/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>Bootstrap</p>
+                                    <h4>Blogen</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#blogen">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/soundcloud/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js</p>
+                                    <p>Participated in it</p>
+                                    <h4>SoundCloud App</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#SoundCloudApp">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item css">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/2020_portfolio/Capture1.png);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>CSS, JavaScript</p>
+                                    <h4>My 2020 Portfolio</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#portfolioV1">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- services section close -->
+
+
+
+            <!-- why-choose-us section begin -->
+            <section id="page-why-choose-us" data-speed="10" data-type="background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="animated" data-animation="fadeInLeft">What services do I provide
+                            </h2>
+                            <div class="spacer-single"></div>
+                        </div>
+                        
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-md-4 animated" data-animation="fadeInLeft">
+                            <div class="inner">
+                                <i class="fa fa-check"></i>
+                                <div class="text">
+                                    <h3>Vue, React and Javascript Applications</h3>
+                                    I'll be responsible for creating, developing, testing, and maintaining web applications.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-md-4 animated" data-animation="fadeInLeft">
+                            <div class="inner">
+                                <i class="fa fa-check"></i>
+                                <div class="text">
+                                    <h3>PSD to HTML</h3>
+                                    I'll convert any given web photoshop design to an interactive page using a wide combination of front end technologies.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
+
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-md-4 animated" data-animation="fadeInLeft">
+                            <div class="inner">
+                                <i class="fa fa-check"></i>
+                                <div class="text">
+                                    <h3>HTML Email</h3>
+                                    Will be responsible for ensuring a consistent email experience in webmail as well as other email applications such as Google Gmail and Microsoft Outlook.
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+            <!-- why-choose-me section close -->
+
+            <!-- blog section begin -->
+            <section id="page-team" data-speed="8" data-type="background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInLeft">Blog
+                        	<span class="small-border"></span>
+                            </h1>
+                           <div class="blog-container">
+                                <ul class="blog-inner">
+                                    <!-- blog start -->
+                                    <li class="col-lg-4 col-md-6 col-sm-6 col-12 animated" data-animation="fadeInLeft">
+                                        <div class="blog blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <div class="blog-item-bg">
+                                                    <img loading="lazy" src="images/student_typing_keyboard_text_woman_startup_business_people-710502-min.jpg"/>
+                                                </div>
+                                            </div>
+                                            <div class="blog-item-brief">
+                                                <p>By Mahmoud Farargy</p>
+                                                <h4>How to become a successful front end developer?</h4>
+                                                <small class="text-muted">Jun 14, 2020</small>
+
+                                                <div class="primary-btn-box blog-brief-btn">
+                                                    <a href="./blogs/how_to_become_a_successful_front_end_developer.html" >Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- blog end -->
+                                    <!-- blog start -->
+                                    <li class="col-lg-4 col-md-6 col-sm-6 col-12 animated" data-animation="fadeInRight">
+                                        <div class="blog blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <div class="blog-item-bg">
+                                                    <img loading="lazy" src="images/toptal2.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="blog-item-brief">
+                                                <p>External Advertising</p>
+                                                <h4>How to hire a front-end developer?</h4>
+                                                <small class="text-muted">Oct 28, 2020</small>
+
+                                                <div class="primary-btn-box blog-brief-btn">
+                                                     <a href="https://toptal.com/front-end#hiring-guide" target="_blank">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- blog end -->
+                                </ul>
+                           </div>
+                            <div class="spacer-single"></div>
+                        </div>
+                </div>
+            </section>
+            <!-- blg section close -->
+
+
+            <!-- logo carousel section begin -->
+            <section id="logo-full">
+                <div class="container">
+                    <!-- logo carousel -->
+                    <div class="row">
+                        <div class="flexslider logo-carousel">
+                            <ul class="slides">
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/procrew.jpeg" class="pr-logo" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/logo/1.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/logo/2.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/logo/3.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/logo/4.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/logo/5.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img loading="lazy" src="images/logo/6.png" alt="">
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <!-- logo carousel close -->
+                    </div>
+                </div>
+            </section>
+            <!-- logo carousel section close -->
+
+            <!-- contact section begin -->
+            <section id="page-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInLeft">GET IN TOUCH!
+                        	<span class="small-border"></span>
+                            </h1>
+                            <p class="animated" data-animation="fadeIn">
+                                Whether you want to hire me or just want to chat, feel free to shoot me an email at <br /> <a class="copyright2" href="mailto:mahmoudfarargy9@gmail.com">mahmoudfarargy9@gmail.com </a><br />
+                                or send me a contact form.
+                            </p>
+                            <div class="spacer-single"></div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <form name="contactForm" id='contact_form' >
+                                <div id='name_error' class='error'>Please enter your name.</div>
+                                <div>
+                                    <input type='text' name='name' id='name' class="form-control" placeholder="Your Name *">
+                                </div>
+                                <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                <div>
+                                    <input type='text' name='email' id='email' class="form-control" placeholder="Your Email *">
+                                </div>
+                                <div id='subject_error' class='error'>Please enter the subject.</div>
+                                <div>
+                                    <input type='text' name='subject' id='subject' class="form-control" placeholder="Subject">
+                                </div>
+                                <div id='message_error' class='error'>Please enter your message.</div>
+                                <div>
+                                    <textarea name='message' id='message' class="form-control" placeholder="Your Message *"></textarea>
+                                </div>
+                                <div id='mail_success' class='success'>Your message has been sent successfully. Thanks for your feedback!</div>
+                                <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                <div id='mail_err' class='error'></div>
+                                <p id='submit'>
+                                    <input type='submit' id='send_message' value='Submit Form' class="btn btn-primary">
+                                </p>
+                            </form>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <address>
+                                <span><i class="fas fa-map-marker fa-lg"></i>Al Seyouf, Alexandria, Egypt.</span>
+                                <span><i class="fas fa-phone fa-lg"></i>(0020)1152559760</span>
+                                <span><i class="fas fa-envelope fa-lg"></i><a href="mailto:mahmoudfarargy9@gmail.com">mahmoudfarargy9@gmail.com</a></span>
+                                <span><i class="fas fa-globe fa-lg"></i><a href="https://mahmoudportfolio.netlify.app" target="_blank">mahmoudportfolio.netlify.com</a></span>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact section close -->
+
+
+
+
+        </div>
+        <!-- content close -->
+
+        <!-- footer begin -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="social-icons">
+                            <a title="Instagram" href="https://www.instagram.com/codepugilist/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a title="Codepen" href="https://codepen.io/mahmoud-farargy/pens/public"target="_blank"><i class="fab fa-codepen fa-lg"></i></a>
+                            <a title="FreeCodeCamp" href="https://www.freecodecamp.org/farargy" target="_blank"><i class="fab fa-free-code-camp fa-lg"></i></a>
+                            <a title="Github" href="http://github.com/Mahmoud-farargy" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        </div>
+                        <div class="spacer-single"></div>
+                        © Copyright <span id="currYear"></span> - Mahmoud Farargy
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+    <!-- modals begin -->
+    <!-- Budget -->
+        <div class="modal fade" id="budget">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header flex-row">
+                            <h5 class="modal-title">budget Clone </h5>
+                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                        </div>
+                            <!--------- carousel------------>
+                                <div class="budgetCarousel splide">
+                                    <div class="splide__track w-100">
+                                        <ul class="splide__list w-100">
+                                            <img loading="lazy" class="splide__slide" src="./projects_images/budget/Capture1.png" alt="budget">
+                                            <img loading="lazy" class="splide__slide" src="./projects_images/budget/Capture2.png" alt="budget">
+                                        </ul>
+                                    </div>
+                                </div>
+                            <!--x----- carousel--------x-->  
+                            <div class="modal-body">
+                                <div class="text-overlay">
+                                        <h5 class="text-center">Description</h5>
+                                    <p>In this app you can add income and expenses for
+                                        a certain month and it will calculate how much money you have made and 
+                                        spent and shows the final budget.
+                                </div>
+                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                    <div class="d-flex my-2 justify-content-center">
+                                        <a class="btn btn-outline-primary" href="budgetApp.html" target="_blank" style="margin-right:20px;">Visit App</a>
+                                        <a class="btn btn-outline-primary" href="https://codepen.io/mahmoud-farargy/pen/vYEQZpN" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer py-3">
+                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                            </div>
+                    </div>
+                </div>
+        </div> 
+                <!-- Notes Keeper -->
+                    <div class="modal fade" id="notesKeeper">
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title"> Notes Keeper</h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>
+                                        <!--------- carousel------------>
+                                            <div class="notesCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/notes-keeper/Capture1.jpg" alt="Notes Keeper">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/notes-keeper/Capture2.jpg" alt="Notes Keeper">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/notes-keeper/Capture3.jpg" alt="Notes Keeper">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/notes-keeper/Capture4.jpg" alt="Notes Keeper">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/notes-keeper/Capture5.jpg" alt="Notes Keeper">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/notes-keeper/Capture6.jpg" alt="Notes Keeper">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center">
+                                                        <a class="btn btn-outline-primary" href="https://vuenote.netlify.app" target="_blank" style="margin-right:20px;">Visit App</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/note/tree/master/note" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                    </div>                                                   
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div> 
+                    <!-- lyrics finder-->
+                        <div class="modal fade" id="lyricsFinder">
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title"> Lyrics Finder</h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>
+                                        <!--------- carousel------------>
+                                            <div class="lyricsFinderCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/lyrics-finder/Capture1.jpg" alt="Lyrics Finder">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/lyrics-finder/Capture2.jpg" alt="Lyrics Finder">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center">
+                                                            <a class="btn btn-outline-primary" href="https://ilyrics.netlify.app" target="_blank" style="margin-right:20px;">Lyrics Finder</a>
+                                                            <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/ilyrics" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                    </div>                                                  
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div> 
+                    <!-- word dictionary -->
+                    <div class="modal fade" id="wordDictionary">
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title"> Dictionary with over 10 languages </h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>                                      
+                                        <!--------- carousel------------>
+                                            <div class="dictionaryCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/dictionary/Capture1.jpg" alt="Dictionary">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/dictionary/Capture2.jpg" alt="Dictionary">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/dictionary/Capture3.jpg" alt="Dictionary">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex mb-2">
+                                                    <a class="btn btn-outline-primary" href="https://idictionary.netlify.app" target="_blank" style="margin-right:20px;">Visit App</a> 
+                                                    <!-- <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/calculator/tree/master/calculator" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a> -->
+                                                    </div>                                                 
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div> 
+                    <!-- vue appchirp -->
+                    <div class="modal fade" id="appChirp">
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title"> 13+ Useful Tools All In One App </h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>
+                                        <!--------- carousel------------>
+                                            <div class="appchirpCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/appchirp/Capture1.png" alt="Appchirp">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/appchirp/Capture2.png" alt="Appchirp">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/appchirp/Capture3.jpg" alt="Appchirp">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/appchirp/Capture4.jpg" alt="Appchirp">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/appchirp/Capture5.png" alt="Appchirp">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->  
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center">
+                                                <div class="text-overlay">
+                                                    <h5 class='text-center'>Description</h5>
+                                                    <ul class="bullet--1">
+                                                        <li>Calculator</li>
+                                                        <li>Clock</li>
+                                                        <li>Exchange Currency</li>
+                                                        <li>Lyrics Finder</li>
+                                                        <li>Timer</li>
+                                                        <li>Stoliwatch</li>
+                                                        <li>Alarm Clock</li>
+                                                        <li>World Clock</li>
+                                                        <li>Breathing Exercise</li>
+                                                        <li>Light Touch</li>
+                                                        <li>To-do List</li>
+                                                        <li>Scoreboard</li>
+                                                        <li>Mathematical Test</li>
+                                                    </ul>
+
+                                                </div>
+                                                  <div class="d-flex mb-2 align-items-center justify-content-center">
+                                                        <a class="btn btn-outline-primary" href="https://appchirp.netlify.app/" target="_blank" style="margin-right:20px;">Visit App</a> 
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/calculator/tree/master/calculator" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                    </div>                                                 
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div> 
+                    <!-- netflix -->
+                    <div class="modal fade" id="netflix">
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title">Netflix Clone </h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>
+                                        <!--------- carousel------------>
+                                            <div class="netflixCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/netflix-clone/Capture1.png" alt="Netflix">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/netflix-clone/Capture2.png" alt="Netflix">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/netflix-clone/Capture3.png" alt="Netflix">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/netflix-clone/Capture4.png" alt="Netflix">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/netflix-clone/Capture5.png" alt="Netflix">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->  
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center">
+                                                            <a class="btn btn-outline-primary" href="https://netflixwebclone.netlify.app" target="_blank" style="margin-right:20px">Visit Site</a>
+                                                            <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/netflix-clone" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                    </div>                                                
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
+                            </div>
+                    </div> 
+                    <!-- react hotel resort -->
+                    <div class="modal fade" id="hotelResort">
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title"> Hotel Reservation Site </h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>
+                                        <!--------- carousel------------>
+                                            <div class="hotelResortCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/summer-resort/Capture1.jpg" alt="Hotel Resort">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/summer-resort/Capture2.jpg" alt="Hotel Resort">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/summer-resort/Capture3.jpg" alt="Hotel Resort">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/summer-resort/Capture4.jpg" alt="Hotel Resort">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/summer-resort/Capture5.jpg" alt="Hotel Resort">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/summer-resort/Capture6.jpg" alt="Hotel Resort">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->  
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                  <div class="d-flex my-2 justify-content-center">
+                                                        <a class="btn btn-outline-primary" href="https://summerresort.netlify.app" target="_blank" style="margin-right:20px;">Visit Site</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/summerresort/tree/master/Beach-Resort" target="_blank"><i class="fas fa-external-link-alt"></i>See Code..</a>
+                                                  </div>                                               
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
+                            </div>
+                    </div> 
+                    <!-- react burger builder -->
+                        <div class="modal fade" id="burgerBuilder">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <h5 class="modal-title"> Burger Builder </h5>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="burgerioCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/burger-builder/Capture1.png" alt="Burger builder">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/burger-builder/Capture2.png" alt="Burger builder">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/burger-builder/Capture3.png" alt="Burger builder">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/burger-builder/Capture4.png" alt="Burger builder">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->  
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center w-100">
+                                                        <a class="btn btn-outline-primary" href="https://burgerio.netlify.app" target="_blank" style="margin-right:20px;">Visit App</a> <br>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Burgerio" target="_blank"><i class="fas fa-external-link-alt"></i>See Code..</a>
+                                                    </div>                                              
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div> 
+                    <!-- react typing speed test -->
+                     <div class="modal fade" id="wordBeater">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <h5 class="modal-title"> Typing Speed App </h5>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="wordBeaterCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/speed-test/Capture1.jpg" alt="Typing speed app">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/speed-test/Capture2.jpg" alt="Typing speed app">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/speed-test/Capture3.jpg" alt="Typing speed app">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/speed-test/Capture4.jpg" alt="Typing speed app">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                   <div class="d-flex mt-2 mb-3">
+                                                        <a class="btn btn-outline-primary" href="https://wbeater.netlify.app" target="_blank" style="margin-right:20px;">Visit App</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Speed-typing-game" target="_blank"><i class="fas fa-external-link-alt"></i>See Code..</a>
+                                                    </div>                                             
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- react amazon clone -->
+                        <div class="modal fade" id="amazonClone">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <h5 class="modal-title"> Amazon Clone </h5>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>                          
+                                        <!--------- carousel------------>
+                                            <div class="amazonCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/amazon-clone/Capture1.jpg" alt="Amazon Clone">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/amazon-clone/Capture2.jpg" alt="Amazon Clone">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/amazon-clone/Capture3.jpg" alt="Amazon Clone">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/amazon-clone/Capture4.jpg" alt="Amazon Clone">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/amazon-clone/Capture5.jpg" alt="Amazon Clone">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/amazon-clone/Capture6.jpg" alt="Amazon Clone">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="text-overlay">
+                                                        <h5 class='text-center'>Description</h5>
+                                                            <p>A site that's similar to Amazon where users can browse products, add some of them to the shopping cart, and purchase items in the Cart with Paypal.</p>
+                                                    </div>
+                                                    <div class="d-flex mt-2 mb-3">
+                                                        <a class="btn btn-outline-primary" href="https://amazonstore.netlify.app" target="_blank" style="margin-right:20px;">Visit Site</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/amazonclone" target="_blank"><i class="fas fa-external-link-alt mr-2"></i>See Code..</a>
+                                                    </div>                                             
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- bootstrap splendify -->
+                        <div class="modal fade" id="splendify">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <div class="header-box">
+                                                <h5 class="modal-title"> Splendify </h5>
+                                                <span class="badge badge-primary ml-2">UI</span>
+                                            </div>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="splendifyCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/splendify/Capture1.jpg" alt="Splendify">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/splendify/Capture2.jpg" alt="Splendify">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                   <div class="d-flex mt-2 mb-3">
+                                                        <div class="d-flex mb-2">
+                                                            <a class="btn btn-outline-primary" href="https://splendify.netlify.app/" target="_blank" style="margin-right:20px">Visit Site</a> 
+                                                            <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/bootstrap-project-3/tree/master/glozzom" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                        </div>                                        
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                                <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                </div>
+                        </div>
+                    </div>
+                        <!-- CSS travia -->
+                        <div class="modal fade" id="travia">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <div class="header-box">
+                                                <h5 class="modal-title"> Travia </h5>
+                                                <span class="badge badge-primary ml-2">UI</span>
+                                            </div>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="traviaCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/travia/Capture1.jpg" alt="Travia">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/travia/Capture2.jpg" alt="Travia">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/travia/Capture3.jpg" alt="Travia">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/travia/Capture4.jpg" alt="Travia">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/travia/Capture5.jpg" alt="Travia">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                   <div class="d-flex mt-2 mb-3">
+                                                        <div class="d-flex my-2 justify-content-center">
+                                                            <a class="btn btn-outline-primary" href="https://travia.netlify.app" target="_blank" style="margin-right:20px">Visit Site</a> 
+                                                            <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Travia" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>   
+                                                        </div>                                      
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- bootstrap mizuxe -->
+                        <div class="modal fade" id="mizuxe">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <div class="header-box">
+                                                <h5 class="modal-title"> Mizuxe </h5>
+                                                <span class="badge badge-primary ml-2">UI</span>  
+                                            </div>
+                                           
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="mizuxeCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/mizuxe/Capture1.jpg" alt="Mizuxe">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/mizuxe/Capture2.jpg" alt="Mizuxe">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->     
+                                        
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                   <div class="d-flex mt-2 mb-3">
+                                                       <div class="d-flex my-2 justify-content-center">
+                                                            <a class="btn btn-outline-primary" href="https://mizuxe-bstrap.netlify.app/" target="_blank" style="margin-right:20px">Visit Site</a>
+                                                            <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Bootstrap-Project-2/tree/master/Mizuxe%20(Bootstrap)" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                        </div>                                
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- bootstrap blogen -->
+                        <div class="modal fade" id="blogen">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <div class="header-box">
+                                                <h5 class="modal-title"> Blogen </h5>
+                                                <span class="badge badge-primary ml-2 mt-2">UI</span>  
+                                            </div>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="blogenCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/blogen/Capture1.jpg" alt="Blogen">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/blogen/Capture2.jpg" alt="Blogen">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->  
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                   <div class="d-flex mt-2 mb-3">
+                                                        <div class="d-flex my-2 justify-content-center">
+                                                                <a class="btn btn-outline-primary" href="https://blogenn.netlify.app/" target="_blank" style="margin-right:20px">Visit Site</a>
+                                                                <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Bootstrap-project-4/tree/master/my%20blogen" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                        </div>                            
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- css xypo -->
+                            <div class="modal fade" id="xypo">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <div class="header-box">
+                                                    <h5 class="modal-title"> Xypo </h5>
+                                                    <span class="badge badge-primary ml-2 mt-2">UI</span>  
+                                            </div>
+
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                        <!--------- carousel------------>
+                                            <div class="xypoCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/xypo/Capture1.jpg" alt="Xypo">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/xypo/Capture2.jpg" alt="Xypo">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x-->  
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center">
+                                                        <a class="btn btn-outline-primary" href="https://xypo-m.netlify.app" target="_blank" style="margin-right:20px">Visit Site</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Xypo" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                    </div>                                              
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+
+                    <!-- SoundCloud -->
+                     <div class="modal fade" id="SoundCloudApp">
+                                <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            
+                                            <h5 class="modal-title">Soundcloud App</h5>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                            <!--------- carousel------------>
+                                            <div class="soundcloudCarousel splide">
+                                                    <div class="splide__track w-100">
+                                                        <ul class="splide__list w-100">
+                                                            <img loading="lazy" class="splide__slide" src="./projects_images/soundcloud/Capture1.png" alt="Soundcloud">
+                                                            <img loading="lazy" class="splide__slide" src="./projects_images/soundcloud/Capture2.png" alt="Soundcloud">
+                                                            <img loading="lazy" class="splide__slide" src="./projects_images/soundcloud/Capture3.png" alt="Soundcloud">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            <!--x----- carousel--------x--> 
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center">
+                                                        <a class="btn btn-outline-primary" href="https://soundcloud-redux.herokuapp.com" target="_blank" style="margin-right:20px">Visit App</a>
+                                                    </div>                                              
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>    
+
+                            <!-- Spotify-- -->
+                    <div class="modal fade" id="spotifyClone">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header flex-row">
+                                    <h5 class="modal-title">Advanced Spotify Clone</h5>
+                                   
+                                    <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                </div>
+                     <!--------- carousel------------>
+                        <div class="spotifyCarousel splide">
+                            <div class="splide__track w-100">
+                                <ul class="splide__list w-100">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture1.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture2.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture3.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture4.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture5.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture6.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture7.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture8.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture9.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture10.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture11.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture12.jpg" alt="Spotify clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/spotify-clone/Capture13.jpg" alt="Spotify clone">
+                                </ul>
+                            </div>
+                        </div>
+                    <!--x----- carousel--------x-->    
+                                    <div class="modal-body">
+                                    <div class="text-overlay">
+                                        <h5 class='text-center'>Description</h5>
+                                        <p>An application that is similar to Spotify where
+                                            users can play millions of songs, search for a
+                                            specific song, album, or artist, get access to and
+                                            play their own Spotify playlist, get song lyrics, and
+                                            more.                                            
+                                            </p>
+                                    </div>
+                                        <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                            <div class="d-flex mt-2 mb-3">
+                                                 <div class="d-flex my-2 justify-content-center">
+                                                         <a class="btn btn-outline-primary" href="https://spotifyappclone.netlify.app" target="_blank" style="margin-right:20px">Visit App</a>
+                                                         <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/spotify-clone" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                                 </div>                            
+
+                                             </div>
+                                         </div>
+                                    </div>
+                                    <div class="modal-footer py-3">
+                                        <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                    </div>
+                            </div>
+                        </div>    
+                </div>
+                   <!-- Instagram -->
+                   <div class="modal fade" id="instaClone">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header flex-row">
+                                <h5 class="modal-title">Full Advanced Instagram Clone</h5>
+                                <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                            </div>
+                    <!--------- carousel------------>
+                        <div class="instagramCarousel splide">
+                            <div class="splide__track w-100">
+                                <ul class="splide__list w-100">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture1.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture2.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture3.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture4.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture5.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture6.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture7.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture8.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture9.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture10.png" alt="Instagram clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/instagram-clone/Capture11.png" alt="Instagram clone">
+                                </ul>
+                            </div>
+                        </div>
+                    <!--x----- carousel--------x-->
+                                <div class="modal-body">
+                                        <div class="text-overlay">
+                                            <h5 class='text-center'>Description</h5>
+                                            <p>A social media platform similar to Instagram that people can actually use.</p>
+                                                <h5 class='text-center'>Features</h5>
+                                                <ul class="bullet--1">
+                                                    <li><p>Authentication system</p>
+                                                     <ul class="bullet--2">
+                                                      <li><p>Users can sign-in with different methods like Google, Twitter, Github or Email and password</p></li>
+                                                      <li><p>Ability to retrieve password if it is forgotten </p></li>
+                                                     </ul>
+                                                      </li>
+                                                   <li><p>Profile screen</p>
+                                                       <ul class="bullet--2">
+                                                           <li> <p>Follow/Unfollow users
+                                                               <ul>
+                                                                   <li class="bullet--3"><p>View all followed users on your profile or other's</p></li>
+                                                               </ul>
+                                                               </p>
+                                                           </li>
+                                                           <li><p>Show mutual friends</p></li>
+                                                           <li><p>Edit profile</p>
+                                                                   <ul>
+                                                                       <li class="bullet--3"><p>Update profile information or avatar picture</p></li>
+                                                                       <li class="bullet--3"><p>Manage blocked users</p></li>
+                                                                       <li class="bullet--3"><p>Change account's Username and Password</p></li>
+                                                                   </ul>
+                                                               </li>
+                                                           <li><p>Account settings</p></li>
+                                                            <ul>
+                                                                    <li class="bullet--3"><p>Show/Hide activity status</p></li>
+                                                                    <li class="bullet--3"><p>Make account public/private </p></li>
+                                                                    <li class="bullet--3"><p>Delete account</p></li>
+                                                                    <li class="bullet--3"><p> + more options</p></li>
+                                                           </ul>
+                                                       </ul>
+                                                   </li>
+                                                   <li><p>Posts</p>
+                                                       <ul class="bullet--2">
+                                                           <li><p>Feed is based on who the user follows</p></li>
+                                                           <li><p>Users can post pictures and videos from camera or gallery</p></li>
+                                                           <li><p>They can also post audio like songs or mini podcasts</p></li>
+                                                           <li><p>Show mutual likes on a post</p></li>
+                                                           <li><p>Like/Dislike posts
+                                                               <ul class="bullet--3">
+                                                                   <li><p>View all likes on a post and who liked it</p></li>
+                                                                   <li><p>Nice animation when liking a post</p></li>
+                                                               </ul>
+                                                               </p>
+                                                           </li>
+                                                           <li><p>Comment
+                                                                   <ul class="bullet--3">
+                                                                       <li><p>Comment or reply on someone else'comment</p></li>
+                                                                       <li><p>Like/Dislike comments and sub-comments</p></li>
+                                                                       <li><p>View all comments and who liked them</p></li>
+                                                                       <li><p>Choose and include emojis among hundreds while commenting<p></li>
+                                                                   </ul>
+                                                               </p>
+                                                           </li>
+                                                           <li><p>Delete comments or an entire post only by their owners </p>
+                                                           </li>
+                                                       </ul>
+                                                   </li>
+                                                   <li>
+                                                       <p>Chat screen</p>
+                                                       <ul class="bullet--2">
+                                                           <li><p>Chat with any user</p></li>
+                                                           <li><p>Share images, videos, audio, documents and emojis while chatting</p></li>
+                                                           <li><p>Unsend and copy messages</p></li>
+                                                           <li><p>Delete chat from both sides</p></li>
+                                                       </ul>
+                                                   </li>
+                                                    <li>
+                                                       <p>Find people</p>
+                                                       <ul class="bullet--2">
+                                                           <li><p>Explore other people's posts</p></li>
+                                                           <li><p>Sort these posts by likes count, comments count, date or randomly in both ascending and descending orders</p></li>
+                                                           <li>Filter them to show images only, videos only, audio only or posts from people you followed only</li>
+                                                       </ul>
+                                                   </li>
+                                                   <li>
+                                                       <p>Notification screen of the latest updates</p>
+                                                       <ul class="bullet--2">
+                                                        <li><p>Notifications can self-destruct if the post, reel, like, or comment that based on it got deleted</p></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li><p>Block/Unblock users</p></li>
+                                                   <li><p>Share video Reels</p>
+                                                              <ul class="bullet--2">
+                                                                 <li><p>Like and comment on other people's reels</p></li>
+                                                                 <li><p>Put reels into groups</p></li>
+                                                           </ul>
+                                                   </li>
+                                                   <li><p>Account privacy</p></li>
+                                                   <li><p>Search users</p></li>
+                                                   <li><p>Suggestions list</p></li>
+                                                   <li><p>Activity Status</p></li>
+                                                   <li><p>Save posts</p></li>
+                                                   <li><p>Fully responsive on Mobile and tablet devices as well</p></li>
+                                               </ul>
+                                               <h5 class='text-center'>Used technologies</h5>   
+                                                <ul class="bullet--1">
+                                             <li><p>React</p></li>
+                                             <li><p>Context API</p></li>
+                                            <li><p>Firebase</p></li>
+                                            <li><p>jQuery</p></li>
+                                            <li><p>SCSS</p></li>
+                                            <li><p>Styled Components</p></li>
+                                            </ul>
+                                            <h5 class='text-center'>Features that will be added soon</h5> 
+                                    <ul class="bullet--1">
+                                    <li><p>Stories</p></li>
+                                    <li><p>Ability to put multiple media contents in one post</p></li>
+                                    <li><p>Ability to send voice messages</p></li>
+                                    <li><p>Night/Day themes</p></li>
+                                    </ul>
+                                </div>
+                                    <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                        <div class="d-flex mt-2 mb-3">
+                                             <div class="d-flex my-2 justify-content-center">
+                                                     <a class="btn btn-outline-primary" href="https://voxgram.netlify.app" target="_blank" style="margin-right:20px">Visit App</a>
+                                                     <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/instagram-clone" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                             </div>                            
+
+                                         </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer py-3">
+                                    <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>    
+            </div>
+            <!-- Google clone -->
+            <div class="modal fade" id="googleClone">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header flex-row">
+                            <h5 class="modal-title">Google Search Clone</h5>
+                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                        </div>
+                    <!--------- carousel------------>
+                        <div class="googleCarousel splide" id="splide">
+                            <div class="splide__track w-100">
+                                <ul class="splide__list w-100">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/google-clone/Capture1.png" alt="Google Clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/google-clone/Capture2.png" alt="Google Clone">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/google-clone/Capture3.png" alt="Google Clone">
+                                </ul>
+                            </div>
+                        </div>
+                    <!--x----- carousel--------x-->
+                            <div class="modal-body">
+                                <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                    <div class="d-flex mt-2 mb-3">
+                                         <div class="d-flex my-2 justify-content-center">
+                                                 <a class="btn btn-outline-primary" href="https://googlesiteclone.netlify.app" target="_blank" style="margin-right:20px">Visit Site</a>
+                                                 <!-- <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Bootstrap-project-4/tree/master/my%20blogen" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a> -->
+                                         </div>                            
+
+                                     </div>
+                                 </div>
+                            </div>
+                            <div class="modal-footer py-3">
+                                <button class="btn btn-info" data-dismiss="modal">Close</button>
+                            </div>
+                    </div>
+                </div>    
+            </div>
+         <!-- Visipoint -->
+         <div class="modal fade" id="visipointApp">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header flex-row">
+                        <h5 class="modal-title">Visitor Management System</h5>
+                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                    </div>
+                    <!--------- carousel------------>
+                        <div class="visipointCarousel splide">
+                            <div class="splide__track w-100">
+                                <ul class="splide__list w-100">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/visipoint/Capture1.png" alt="Visipoint">
+                                    <img loading="lazy" class="splide__slide" src="./projects_images/visipoint/Capture2.png" alt="Visipoint">
+                                </ul>
+                            </div>
+                        </div>
+                    <!--x----- carousel--------x-->
+                        <div class="modal-body">
+                            <div class="d-flex flex-wrap flex-column justify-content-center align-items-center">
+                                    <div class="text-overlay">
+                                            <h5 class='text-center'>Description</h5>
+                                            <h6 style="font-weight:600; margin-top: 16px; margin-bottom:10px;">The Easy-To-Use Visitor Management System Your Visitors and Staff Will Love</h6>
+                                            <p>Deliver a warm welcome to your visitors from the moment they step through the door. Greet your visitors, staff and contractors with a modern sign-in system that provides photo ID, up-to-date emergency lists and live information on who's signed in.</p>
+                                    </div>
+                                <div class="d-flex mt-2 mb-3">
+                                     <div class="d-flex my-2 justify-content-center">
+                                             <a class="btn btn-outline-primary" href="https://xdg.visipoint.net" target="_blank" style="margin-right:20px">Visit App</a>
+                                             <a class="btn btn-outline-primary" href="https://gitlab.com/lamasatech/visipoint-v5-web" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                     </div>                            
+
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="modal-footer py-3">
+                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                </div>
+            </div>    
+        </div>
+                 <!-- 2020 Portfolio -->
+                 <div class="modal fade" id="portfolioV1">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header flex-row">
+                                <h5 class="modal-title">My 2020 Portfolio</h5>
+                                <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                            </div>
+                            <!--------- carousel------------>
+                                <div class="portfolioV1Carousel splide">
+                                    <div class="splide__track w-100">
+                                        <ul class="splide__list w-100">
+                                            <img loading="lazy" class="splide__slide" src="./projects_images/2020_portfolio/Capture1.png" alt="Portfolio Version 1">
+                                            <img loading="lazy" class="splide__slide" src="./projects_images/2020_portfolio/Capture2.png" alt="Portfolio Version 1">
+                                        </ul>
+                                    </div>
+                                </div>
+                            <!--x----- carousel--------x-->
+                                <div class="modal-body">
+                                    <div class="d-flex flex-wrap flex-column justify-content-center align-items-center">
+                                        <div class="d-flex mt-2 mb-3">
+                                             <div class="d-flex my-2 justify-content-center">
+                                                     <a class="btn btn-outline-primary" href="https://farargy.netlify.app" target="_blank" style="margin-right:20px">Visit Website</a>
+                                                     <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/portfolio_v1" target="_blank"><i class="fas fa-external-link-alt"></i> Code..</a>
+                                             </div>                            
+        
+                                         </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer py-3">
+                                    <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+    <!-- xx -- modals end -- xx -->
+</body>
+</html>

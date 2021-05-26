@@ -1,0 +1,130 @@
+/* -------------------------------------------------- */
+/* section settings and parralax */
+/* -------------------------------------------------- */
+section{
+padding:90px 0 90px 0;
+}
+#testimonial-full{
+background:#116493;
+}
+#subheader{
+background:url(../images/bg-subheader-1.jpg) top fixed;
+}
+
+/* -------------------------------------------------- */
+/* light template */
+.light #page-skills{
+background:url(../images/bg-blur-1-light.jpg) top fixed;
+}
+.light  #page-contact{
+background:url(../images/bg-blur-2-light.jpg) top fixed;
+}
+.light  #page-why-choose-us{
+background:url(../images/bg-blur-3-light.jpg) top fixed;
+}
+.light  #logo-full{
+background:#bbb;
+}
+.light .timeline-content{
+	background-color: #ddd;
+}
+.light .timeline-left::before{
+	border: medium solid #ddd;
+	border-color: transparent transparent transparent #ddd;
+	border-width: 10px 0 10px 10px;
+}
+.light .timeline-content{
+	color: #555;
+}
+.light .timeline-right::before{
+	border: medium solid #ddd;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #ddd transparent transparent;
+}
+.light .modal .modal-header .modal-title, .light .modal .modal-header .close, .light .modal .modal-body h5{
+	color: #111;
+}
+.light .modal-body, .light .splide{
+	background:rgb(252, 252, 252);
+	color: #101010;
+}
+.light .work-project-inner,.light .work-project-content h4, .light .resume-header{
+	color: #fff !important;
+}
+.light .timeline-container::after{
+	background-color: #fff;
+}
+.light .resume-header{
+	border-color: #fff;
+}
+.light .modal-header, .light .modal-footer {
+	background:#bbb;
+	color: #101010;
+}
+.light #page-include{
+	
+	background:#2079ab;
+}
+
+
+
+/* -------------------------------------------------- */
+/* dark template */
+/* #101010 */
+/* #191919 */
+.dark section{
+background:#1A1A1A;
+color:#ccc;
+}
+.dark #page-skills{
+background:url(../images/bg-blur-1.jpg) top fixed;
+}
+.dark  #page-contact{
+background:url(../images/bg-blur-2.jpg) top fixed;
+}
+.dark  #page-why-choose-us{
+background:url(../images/bg-blur-3.jpg) top fixed;
+}
+.dark  #logo-full{
+background:#111;
+}
+.dark .modal-body, .dark .splide, .dark .modal-header, .dark .modal-footer{
+	background:var(--dark-theme-clr);
+	color: #ccc;
+}
+.dark .timeline-container::after{
+	background-color: #111;
+}
+.dark h6{
+	color: #ccc;
+}
+.dark .modal-header .close{
+	color: #ccc;
+}
+.dark .modal-content{
+	border:1px solid rgb(105, 105, 103) !important;
+}
+.dark .modal-body h6{
+	color: #fff !important;
+}
+.dark #page-include{
+	background:#2079ab;
+}
+.dark .timeline-content{
+	background-color: #111;
+}
+.dark .timeline-left::before{
+	border: medium solid #111;
+	border-color: transparent transparent transparent #111;
+	border-width: 10px 0 10px 10px;
+}
+.dark .timeline-right::before{
+	border: medium solid #111;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #111 transparent transparent;
+}
+.transparent{
+	background:url(../images/dotblack40.png) !important;
+}
+
+

@@ -2,6 +2,10 @@ jQuery(document).ready(function() {
 	// --------------------------------------------------
 	// paralax background
 	// --------------------------------------------------
+	const timeouts = setTimeout(() => {
+		$(".loader").fadeOut("slow");
+		window.clearTimeout(timeouts);
+	},300);
 	$window = jQuery(window);
    	jQuery('section[data-type="background"]').each(function(){
     var $bgobj = jQuery(this); // assigning the object
@@ -115,7 +119,7 @@ jQuery(document).ready(function() {
 	
 	
 	jQuery(window).load(function() {
-		$(".loader").fadeOut("slow");
+		// $(".loader").fadeOut("slow");
 	// --------------------------------------------------
 	// filtering gallery
 	// --------------------------------------------------

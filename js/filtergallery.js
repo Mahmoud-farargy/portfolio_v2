@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 	const timeouts = setTimeout(() => {
 		$(".loader").fadeOut("slow");
 		window.clearTimeout(timeouts);
-	},300);
+	},200);
 	$window = jQuery(window);
    	jQuery('section[data-type="background"]').each(function(){
     var $bgobj = jQuery(this); // assigning the object

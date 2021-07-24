@@ -501,12 +501,7 @@ margin-bottom: 30px;
 }
 .fullwidthbanner-container{
 	justify-content: center;
-	align-items:center;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("../images/coffee-laptop-min.jpg") no-repeat;
-	background-size:cover;
-	background-attachment:fixed;
-	background-position: center;
-	
+	align-items:center;	
 }
 .banner-inner{
 	padding: 0 9px;
@@ -638,7 +633,7 @@ height:70px;
 user-select: none;
 }
 header.clone #logo .inner img{
-height:54px;
+height:45px;
 object-fit: contain;
 }
 header.clone .header-info{
@@ -2101,7 +2096,9 @@ border-radius: 40px;
 /* video */
 /* -------------------------------------------------- */
 video, object {
- position: fixed; right: 0; bottom: 0; width: auto; min-width: 100%; height: auto; min-height: 100%; z-index: -100; background: transparent url(../videos//0352_morningsun_540.mp4) no-repeat; background-size: cover;
+ position: fixed; right: 0; bottom: 0; width: auto; min-width: 100%; height: auto; min-height: 100%; z-index: -100;
+ /* background: transparent url(../videos/0352_morningsun_540.mp4) no-repeat; */
+ background-size: cover;
 }
 .video-overlay{
 	position: absolute;
@@ -2590,6 +2587,9 @@ margin-bottom: 30px;
 .modal-header h5.modal-title{
 	font-size: 19px;
 }
+.text-overlay{
+	margin-bottom: 25px;
+}
 .text-overlay ul{
 	padding-inline-start: 40px !important;
 }
@@ -2957,6 +2957,12 @@ design for 320px
 }
 /* less than 670px */
 @media only screen and (max-width:670px){
+		.fullwidthbanner-container{
+			background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("../images/coffee-laptop-min.jpg") no-repeat;
+			background-size:cover;
+			background-attachment:fixed;
+			background-position: center;
+		}
 		.de_tab_content summary{
 			padding:0 15px;
 		}
@@ -3005,8 +3011,8 @@ design for 320px
 		border-color: transparent white transparent transparent;
 		}
 		.skills-box li img{
-			width: 35px;
-			height: 35px;
+			width: 50px;
+			height: 50px;
 		}
 		/* Make sure all circles are at the same spot */
 		.timeline-left::after, .timeline-right::after, .timeline-main::after {

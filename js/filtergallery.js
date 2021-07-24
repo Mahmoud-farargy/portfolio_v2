@@ -376,7 +376,7 @@ jQuery(document).ready(function() {
 
 	
 });
-
+// Animation on scroll
 	// jQuery(window).load(function() {		
 	// 	jQuery('.animated').fadeTo(0,0);
 		

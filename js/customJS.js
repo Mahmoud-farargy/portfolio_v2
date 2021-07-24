@@ -3,11 +3,7 @@
 $(document).ready(()=>{
     // set current year in copyright text
     const inputEl = $("#dNSwitch input");
-    // var initVal = window.localStorage.getItem("isDay");
-    var initVal = new Date().getHours() > 12 ? true: false
-    console.log(initVal);
-    
-    inputEl.prop("checked", false);
+    inputEl.prop("checked", true);
     inputEl.change(function(k){
         const isChecked = k.target.checked;
         if(isChecked){
@@ -81,7 +77,9 @@ $(document).ready(()=>{
       new Splide( ".appchirpCarousel", splideOptions).mount();
       new Splide( ".soundcloudCarousel", splideOptions).mount();
       new Splide( ".portfolioV1Carousel", splideOptions).mount();
-      
+      new Splide( ".weatherCarousel", splideOptions).mount();
+      new Splide( ".blogivaCarousel", splideOptions).mount();
+      new Splide( ".ipTrackerCarousel", splideOptions).mount();
       
 // });
     $("#currYear").text(new Date().getFullYear());

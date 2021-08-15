@@ -58,7 +58,7 @@ $(document).ready(()=>{
       new Splide( ".splide" , splideOptions).mount();
       new Splide( ".instagramCarousel", splideOptions).mount();
       new Splide( ".spotifyCarousel", splideOptions).mount();
-      new Splide( ".dictionaryCarousel", splideOptions).mount();
+      new Splide( ".vHouseCarousel", splideOptions).mount();
       new Splide( ".weatherCarousel", splideOptions).mount();
       new Splide( ".blogivaCarousel", splideOptions).mount();
       

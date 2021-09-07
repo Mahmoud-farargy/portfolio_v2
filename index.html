@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Mahmoud Farargy | Front-End Developer | front end web developer | web developer | El-farargy">
     <meta name="author" content="Mahmoud Farargy">
-    <meta data-react-halmet="true" name="description" content="Mahmoud Farargy | Front-End Developer | front end web developer | web developer | El-farargy">
+    <meta name="description" content="Mahmoud Farargy | Front-End Developer | front end web developer | web developer | El-farargy">
     <style data-styled ="active" data-styled-version="5.1.0"></style>
     <!-- Icon -->
     <meta name="icon" sizes="210x210" href="images/logo.jpg" />
@@ -59,11 +59,6 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <div class="loader"></div>
-    <!-- day/night switch -->
-    <label id="dNSwitch" class="switch">
-        <input type="checkbox" id="slider">
-        <span class="slider round"></span>
-    </label>
     <div id="wrapper">
         <!-- header begin -->
         <header>
@@ -79,8 +74,14 @@
 
                 <!-- mainmenu begin -->
                 <nav>
+                     <!-- Day/Night Switch -->
+                    <label id="dNSwitch" class="switch">
+                        <input type="checkbox" id="slider">
+                        <span class="slider round"></span>
+                    </label>
+                    <!-- Navigations Links -->
                     <ul id="mainmenu">
- 
+
                         <li><a href="#revolution-slider">Home</a></li>
                         <li><a href="#page-about">About</a></li>
                         <li><a href="#page-skills">Skills</a></li>
@@ -199,7 +200,7 @@
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 
-            <!-- about us section begin -->
+            <!-- about me section begin -->
             <section id="page-about">
                 <div class="container">
                     <div class="row">
@@ -338,14 +339,11 @@
     
                         </div>
                         </div>
-                        <div class="about-bottom">
-                         
-                        </div>
                      
                     </div>
                 </div>
             </section>
-            <!-- about us section close -->
+            <!-- about me section close -->
 
 
 
@@ -544,7 +542,7 @@
                                 </div>
                                 <div class="work-project-content">
                                     <p>Vue.js</p>
-                                    <h4>Forecast Now</h4>
+                                    <h4>Live Weather Forecast</h4>
                                     <div class="primary-btn-box">
                                         <button data-toggle="modal" data-target="#weatherApp">Review</button>
                                     </div>
@@ -552,22 +550,7 @@
                             </div>
                         </div>
                         <!-- feature box close -->
-                        <!-- feature box begin -->
-                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
-                            <div class="work-project-container animated"  data-animation="fadeInLeft">
-                                <div class="work-project-inner">
-                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/spotify-clone/Capture1.jpg);"></div>
-                                </div>
-                                <div class="work-project-content">
-                                    <p>React.js</p>
-                                    <h4>Spotify Clone</h4>
-                                    <div class="primary-btn-box">
-                                        <button data-toggle="modal" data-target="#spotifyClone">Review</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- feature box close -->
+
                         <!-- feature box begin -->
                         <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item css">
                             <div class="work-project-container animated"  data-animation="fadeInLeft">
@@ -575,8 +558,8 @@
                                     <div class="work-project-thumbnail" style="background-image: url(./projects_images/vHouse/Capture1.png);"></div>
                                 </div>
                                 <div class="work-project-content">
-                                    <p>HTML, CSS</p>
-                                    <h4>HTML Email</h4>
+                                    <p>HTMl, CSS</p>
+                                    <h4>VHouse HTML Email</h4>
                                     <div class="primary-btn-box">
                                         <button data-toggle="modal" data-target="#vHouse">Review</button>
                                     </div>
@@ -600,7 +583,38 @@
                                 </div>
                             </div>
                          <!-- feature box close -->
-
+                        <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                    <div class="work-project-inner">
+                                            <div class="work-project-thumbnail" style="background-image: url(./projects_images/luxashop/Capture1.png);"></div>
+                                    </div>
+                                    <div class="work-project-content">
+                                            <p>React</p>
+                                            <h4>E-commerce Website</h4>
+                                        <div class="primary-btn-box">
+                                            <button data-toggle="modal" data-target="#luxashop">Review</button>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                     <!-- feature box close -->
+                     <!-- feature box begin -->
+                        <div class="feature-box-small-icon-2 col-lg-4 col-md-6 col-sm-6 col-12 item react">
+                            <div class="work-project-container animated"  data-animation="fadeInLeft">
+                                <div class="work-project-inner">
+                                    <div class="work-project-thumbnail" style="background-image: url(./projects_images/spotify-clone/Capture1.jpg);"></div>
+                                </div>
+                                <div class="work-project-content">
+                                    <p>React.js</p>
+                                    <h4>Spotify Clone</h4>
+                                    <div class="primary-btn-box">
+                                        <button data-toggle="modal" data-target="#spotifyClone">Review</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- feature box close -->
                         </div>
                     </div>
                 </div>
@@ -856,32 +870,32 @@
     <!-- modals begin -->
                     <!-- vHouse HTML email -->
                     <div class="modal fade" id="vHouse">
-                        <div class="modal-dialog modal-md">
-                            <div class="modal-content">
-                                <div class="modal-header flex-row">
-                                    <h5 class="modal-title"> HTML Email </h5>
-                                    <span class="close ml-auto" data-dismiss="modal">&times;</span>
-                                </div>                                      
-                                    <!--------- carousel------------>
-                                        <div class="vHouseCarousel splide">
-                                            <div class="splide__track w-100">
-                                                <ul class="splide__list w-100">
-                                                    <img loading="lazy" class="splide__slide" src="./projects_images/vHouse/Capture1.png" alt="vHouse/">
-                                                    <img loading="lazy" class="splide__slide" src="./projects_images/vHouse/Capture2.png" alt="vHouse/">
-                                                    <img loading="lazy" class="splide__slide" src="./projects_images/vHouse/Capture3.png" alt="vHouse/">
-                                                </ul>
+                            <div class="modal-dialog modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header flex-row">
+                                        <h5 class="modal-title"> HTML Email </h5>
+                                        <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                    </div>                                      
+                                        <!--------- carousel------------>
+                                            <div class="vHouseCarousel splide">
+                                                <div class="splide__track w-100">
+                                                    <ul class="splide__list w-100">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/vHouse/Capture1.png" alt="vHouse/">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/vHouse/Capture2.png" alt="vHouse/">
+                                                        <img loading="lazy" class="splide__slide" src="./projects_images/vHouse/Capture3.png" alt="vHouse/">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        <!--x----- carousel--------x--> 
+                                        <div class="modal-body">
+                                            <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
+                                                    <div class="d-flex mb-2">
+                                                    <a class="btn btn-outline-primary" href="https://mahmoud-farargy.github.io/vhouse_html_email/" target="_blank" style="margin-right:20px;">Visit Email</a> 
+                                                    <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/vhouse_html_email" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                    </div>                                                 
+
                                             </div>
                                         </div>
-                                    <!--x----- carousel--------x--> 
-                                    <div class="modal-body">
-                                        <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
-                                                <div class="d-flex mb-2">
-                                                <a class="btn btn-outline-primary" href="https://mahmoud-farargy.github.io/vhouse_html_email/" target="_blank" style="margin-right:20px;">Visit Email</a> 
-                                                <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/vhouse_html_email" target="_blank"><i class="fab fa-github"></i>Github repo</a>
-                                                </div>                                                 
-
-                                        </div>
-                                    </div>
                                     <div class="modal-footer py-3">
                                     <button class="btn btn-info" data-dismiss="modal">Close</button>
                                     </div>
@@ -1195,6 +1209,39 @@
                                                     <div class="d-flex my-2 justify-content-center">
                                                         <a class="btn btn-outline-primary" href="https://blogiva.web.app/" target="_blank" style="margin-right:20px">Visit Website</a>
                                                         <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Blogiva" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                    </div>                                              
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer py-3">
+                                            <button class="btn btn-info" data-dismiss="modal">Close</button>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+                  <!-- Luxashop -->
+                     <div class="modal fade" id="luxashop">
+                            <div class="modal-dialog modal-md">
+                                    <div class="modal-content">
+                                        <div class="modal-header flex-row">
+                                            <h5 class="modal-title">Luxashop</h5>
+                                            <span class="close ml-auto" data-dismiss="modal">&times;</span>
+                                        </div>
+                                            <!--------- carousel------------>
+                                                <div class="luxashopCarousel splide">
+                                                    <div class="splide__track w-100">
+                                                        <ul class="splide__list w-100">
+                                                            <img loading="lazy" class="splide__slide" src="./projects_images/luxashop/Capture1.png" alt="Luxashop">
+                                                            <img loading="lazy" class="splide__slide" src="./projects_images/luxashop/Capture2.png" alt="Luxashop">
+                                                            <img loading="lazy" class="splide__slide" src="./projects_images/luxashop/Capture3.png" alt="Luxashop">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            <!--x----- carousel--------x-->
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-wrap-wrap flex-column pt-3 justify-content-center align-items-center">
+                                                    <div class="d-flex my-2 justify-content-center">
+                                                        <a class="btn btn-outline-primary" href="https://luxashop.netlify.app/" target="_blank" style="margin-right:20px">Visit Website</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/ecommerce-website" target="_blank"><i class="fab fa-github"></i>Github repo</a>
                                                     </div>                                              
                                                 </div>
                                             </div>

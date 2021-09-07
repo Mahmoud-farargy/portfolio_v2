@@ -61,6 +61,7 @@ $(document).ready(()=>{
       new Splide( ".vHouseCarousel", splideOptions).mount();
       new Splide( ".weatherCarousel", splideOptions).mount();
       new Splide( ".blogivaCarousel", splideOptions).mount();
+      new Splide( ".luxashopCarousel", splideOptions).mount();
       
 // });
     $("#currYear").text(new Date().getFullYear());

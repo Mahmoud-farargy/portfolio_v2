@@ -102,7 +102,7 @@ color:#fff;
 }
 .work-project-container{
 	width: 100%;
-	min-height: 200px;
+	min-height: 210px;
 	min-width: 200px;
 	border-radius:5px;
 	position: relative;
@@ -166,7 +166,7 @@ color:#fff;
 	background-size:cover;
 	background-color:#0a0a0a;
 	background-repeat: no-repeat;
-	object-fit: contain;
+	object-fit: fill;
 }
 .work-project-inner .work-project-thumbnail:after{
 	position: absolute;
@@ -979,10 +979,10 @@ height: 360px;
   }
   /* The switch - the box around the slider */
   #dNSwitch{
-	  position: fixed;
-	  bottom: 15px;
-	  left: 8px;
-	  transform: rotate(90deg);
+	  position: relative;
+	  bottom: -20px;
+	  left: 10px;
+	  margin-left:5px;
 	  z-index: 500;
 	  border: 1px solid rgb(146, 146, 146);
 	  border-radius: 34px;
@@ -990,8 +990,8 @@ height: 360px;
   .switch {
 	position: relative;
 	display: inline-block;
-	width: 55px;
-	height: 34px;
+	width: 45px;
+	height: 24px;
   }
   
   /* Hide default HTML checkbox */
@@ -1017,10 +1017,10 @@ height: 360px;
   .slider:before {
 	position: absolute;
 	content: "";
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 	left: 0px;
-	bottom: 4px;
+	bottom: 0px;
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
@@ -1452,9 +1452,9 @@ color:#fff;
 background: #ddd;
 }
 .pricing-dark .pricing-box{
--webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
--moz-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+-moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pricing-dark .pricing-box ul {
 margin: 0;
@@ -2106,7 +2106,7 @@ video, object {
 	left:0;
 	min-height: 100%;
 	width: 100%;
-	background: rgba(30, 30, 30, .6);
+	background: rgba(30, 30, 30, .5);
 	z-index: 1;
 }
 
@@ -2612,7 +2612,10 @@ margin-bottom: 30px;
 .splide .splide__slider{
 	position: relative;
 }
-
+.splide .splide__slide{
+	min-height: 100%;
+	object-fit: fill;
+}
 .splide .splide__pagination .is-active{
     background-color: var(--main-clr);
 }
@@ -2707,7 +2710,6 @@ display:none;
 }
 header.clone {
 display:block;
-position:inherit;
 margin:0;
 padding:0;
 margin-top:0;

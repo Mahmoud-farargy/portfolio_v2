@@ -2702,6 +2702,12 @@ display:block;
 header, #mainmenu li ul{
 display:none;
 }
+#mainmenu{
+	min-height: 500px;
+}
+#mainmenu, .dropdown-menu{
+	overflow-y: auto !important;
+}
 .dropdown-menu{
 	background-color: #111;
 }

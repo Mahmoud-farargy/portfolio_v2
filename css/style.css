@@ -2106,7 +2106,7 @@ video, object {
 	left:0;
 	min-height: 100%;
 	width: 100%;
-	background: rgba(30, 30, 30, .5);
+	background: rgba(30, 30, 30, .15);
 	z-index: 1;
 }
 

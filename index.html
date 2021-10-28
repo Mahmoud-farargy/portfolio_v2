@@ -23,7 +23,7 @@
     <link rel="stylesheet" async href="web-fonts-with-css/css/fontawesome-all.css" type="text/css">
     <!-- <link rel="stylesheet" href="css/plugin.css" type="text/css"> -->
     <link rel="stylesheet" async href="css/color.css" type="text/css">
-    <link rel="stylesheet" async href="./font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" async href="./font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Javascript Files
     ================================================== -->
@@ -68,15 +68,15 @@
                 <div id="logo">
                     <div class="inner">
                         <a href="index.html">
-                            <img loading="lazy" src="images/logo2.jpg" alt="logo"></a>
+                            <img loading="lazy" src="images/logo2.jpg" width="53" height="45" alt="logo"></a>
                     </div>
                 </div>
 
                 <!-- mainmenu begin -->
                 <nav>
                     <!-- Day/Night Switch -->
-                    <label id="dNSwitch" class="switch">
-                        <input type="checkbox" id="slider">
+                    <label id="dNSwitch" for="sliderCheckbox" class="switch">
+                        <input type="checkbox" id="sliderCheckbox">
                         <span class="slider round"></span>
                     </label>
                     <!-- Navigations Links -->
@@ -90,11 +90,11 @@
                         <li class="dropdown">
                             <a  class="dropdown-toggle text-uppercase css-btn-nav-config nav-link" style="cursor:pointer;">Certifications</a>
                             <ul class="dropdown-menu add-box-shadow">
-                                <!-- <li class="dropdown-item"><a href="./CV/Work_Certificate_03_09_2021.jpg" target="_blank">Work Experience</a></li> -->
-                                <li class="dropdown-item"><a href="./CV/ETSNGTCR_0000000033555268.pdf" target="_blank">TOFEL iBT</a></li>
-                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/responsive-web-design" target="_blank">Responsive Web Design</a></li>
-                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms & <br>Data Structures </a></li>
-                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/front-end-libraries" target="_blank">Front End Libraries</a></li>
+                                <!-- <li class="dropdown-item"><a href="./CV/Work_Certificate_03_09_2021.jpg" target="_blank" rel="noopener">Work Experience</a></li> -->
+                                <li class="dropdown-item"><a href="./CV/ETSNGTCR_0000000033555268.pdf" target="_blank" rel="noopener">TOFEL iBT</a></li>
+                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/responsive-web-design" target="_blank" rel="noopener">Responsive Web Design</a></li>
+                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/javascript-algorithms-and-data-structures" target="_blank" rel="noopener">JavaScript Algorithms & <br>Data Structures </a></li>
+                                <li class="dropdown-item"><a href="https://www.freecodecamp.org/certification/farargy/front-end-libraries" target="_blank" rel="noopener">Front End Libraries</a></li>
                             </ul>
                         </li>
                         <li><a href="blog.html">Blog</a></li>
@@ -210,7 +210,7 @@
                             </h1>
                             <p class="animated" data-animation="fadeIn">
                                 Hey! My name is Mahmoud. I'm a self-taught web developer with a strong passion for front end
-                                development. I graduated from <a href="https://tanta.edu.eg/en/" target="_blank"><span>Tanta University</span></a> in Egypt and I essentially have a collage degree in <a href="http://com.tanta.edu.eg/en/stu-incom.aspx" target="_blank"><span>business administration</span></a> but I found myself more passionate
+                                development. I graduated from <a href="https://tanta.edu.eg/en/" target="_blank" rel="noopener"><span>Tanta University</span></a> in Egypt and I essentially have a collage degree in <a href="http://com.tanta.edu.eg/en/stu-incom.aspx" target="_blank" rel="noopener"><span>business administration</span></a> but I found myself more passionate
                                 about coding and developing websites. I aspire toward a career that will allow me to channel my creativity through crafting
                                 web pages and engaging experiences.
                             </p>
@@ -233,8 +233,8 @@
                                         <div class="timeline-container timeline-left">
                                           <div class="timeline-content">
                                             <h2>2013 - 2017</h2>
-                                            <h5>BACHELOR'S DEGREE IN COMMERCE
-                                                (BUSINESS ADMINISTRATION)</h5>
+                                            <h3>BACHELOR'S DEGREE IN COMMERCE
+                                                (BUSINESS ADMINISTRATION)</h3>
                                             <strong>Tanta University, Gharbia, Egypt</strong>
                                             <p>Started by studying industrial relations and then
                                                 transferred to Commerce college.</p>
@@ -243,7 +243,7 @@
                                         <div class="timeline-container timeline-right">
                                           <div class="timeline-content">
                                             <h2>2019 - 2020</h2>
-                                            <h5>Online Udemy courses I took</h5>
+                                            <h3>Online Udemy courses I took</h3>
                                             <ul>
                                                 <li class="bullet--1">Vue – The Complete Guide (w/ Router, Vuex,
                                                     Composition API) by Maximilian
@@ -267,7 +267,7 @@
                                         <div class="timeline-container timeline-left">
                                           <div class="timeline-content">
                                             <h2>2020 - 2021</h2>
-                                            <h5>ProwCrew</h5>
+                                            <h3>ProwCrew</h3>
                                             <strong>Front-end developer, Alexandria, Egypt</strong>
                                             <ul>
                                                 <li class="bullet--1">Implemented enhancements that improved
@@ -296,7 +296,7 @@
                                             <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> FreeCodeCamp website:</h6>
                                                 <p>
                                                 I've actually spent countless hours learning on this website alone. In this period, I managed to completely
-                                                finish the client-side section and the challenges that are provided there. The hardest part was the intermediate Javascript algorithms but I absolutely enjoyed every second of that time and got familiar with solving problems and knew that in order to unravel the most complex algorithm you must divide it into little chucks then solve each part individually and eventually create the entire picture which is the web application that's intended to be done. <a href="https://www.freecodecamp.org/farargy" target="_blank"><span>My timeline on freecodecamp</span></a>
+                                                finish the client-side section and the challenges that are provided there. The hardest part was the intermediate Javascript algorithms but I absolutely enjoyed every second of that time and got familiar with solving problems and knew that in order to unravel the most complex algorithm you must divide it into little chucks then solve each part individually and eventually create the entire picture which is the web application that's intended to be done. <a href="https://www.freecodecamp.org/farargy" target="_blank" rel="noopener"><span>My timeline on freecodecamp</span></a>
                                                 </p>
                         
                                             <h6 style="font-weight:bold;"><i class="fas fa-chevron-right"></i> Youtube Tutorials:</h6>
@@ -368,19 +368,19 @@
                                             <h4>Languages</h4>
                                         </li>
                                         <li class="price-row" title="HTML">
-                                            <img loading="lazy" src="images/skills/html.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/html.png" alt="HTML skill" />
                                             <!-- <span>HTML</span> -->
                                         </li>
                                         <li class="title-row" title="CSS">
-                                            <img loading="lazy" src="images/skills/css.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/css.png" alt="CSS skill"/>
                                             <!-- <span>CSS</span> -->
                                         </li>
                                         <li class="price-row" title="Javascript">
-                                            <img loading="lazy" src="images/skills/js.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/js.png" alt="Javascript skill"/>
                                             <!-- <span>Javascript</span> -->
                                         </li>
                                         <li class="title-row" title="Typescript">
-                                            <img loading="lazy" src="images/skills/typescript.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/typescript.png" alt="Typescript skill"/>
                                             <!-- <span>Typescript</span> -->
                                         </li>
                                         <!-- <li class="empty-row desktop-only"></li> -->
@@ -395,19 +395,19 @@
                                             <h4>Frameworks</h4>
                                         </li>
                                         <li class="price-row" title="jQuery">
-                                            <img loading="lazy" src="images/skills/jquery.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/jquery.png" alt="jQuery skill"/>
                                             <!-- <span>jQuery</span> -->
                                         </li>
                                         <li title="Bootstrap">
-                                            <img loading="lazy" src="images/skills/bootstrap.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/bootstrap.png" alt="Bootstrap skill"/>
                                             <!-- <span>bootstrap</span> -->
                                         </li>
                                         <li class="price-row" title="Vue.js">
-                                            <img loading="lazy" src="images/skills/vue.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/vue.png" alt="Vue.js skill"/>
                                             <!-- <span>Vue.js</span> -->
                                         </li>
                                         <li class="title-row" title="React.js">
-                                            <img loading="lazy" src="images/skills/react.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/react.png" alt="React.js skill"/>
                                             <!-- <span>React.js</span> -->
                                         </li>
                                     </ul>
@@ -421,19 +421,19 @@
                                             <h4>Preprocessors & Tools</h4>
                                         </li>
                                         <li class="price-row" title="SASS">
-                                            <img loading="lazy" src="images/skills/sass.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/sass.png" alt="SASS skill"/>
                                             <!-- <span>SASS</span> -->
                                         </li>
                                         <li title="Github">
-                                            <img loading="lazy" src="images/skills/github.png" style="background-color: #111; border-radius: 50%;"/>
+                                            <img loading="lazy" height="57" width="57" src="images/skills/github.png" style="background-color: #111; border-radius: 50%;" alt="Github skill"/>
                                             <!-- <span>Github</span> -->
                                         </li>
                                         <li class="price-row" title="Git">
-                                            <img loading="lazy" src="images/skills/git.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/git.png" alt="GIT skill"/>
                                             <!-- <span>Git</span> -->
                                         </li>
                                         <li title="Firebase">
-                                            <img loading="lazy" src="images/skills/firebase.png" />
+                                            <img loading="lazy" height="57" width="57" src="images/skills/firebase.png" alt="Firebase skill"/>
                                             <!-- <span>Firebase</span> -->
                                         </li>
                                     </ul>
@@ -458,7 +458,7 @@
                         <div class="col-md-12 text-center">
                             <h2 class="animated resume-header" data-animation="fadeInLeft">CHECK OUT MY RÉSUMÉ!</h2>
                             <div class="spacer-single"></div>
-                            <a class="secondary-btn text-center animated" data-animation="fadeInUp" href="./CV/my-cv.pdf" target="_blank">Grab a copy</a>
+                            <a class="secondary-btn text-center animated" data-animation="fadeInUp" href="./CV/my-cv.pdf" target="_blank" rel="noopener">Grab a copy</a>
                         </div>
                     </div>
                 </div>
@@ -690,7 +690,7 @@
                                         <div class="blog blog-item">
                                             <div class="blog-item-thumbnail">
                                                 <div class="blog-item-bg">
-                                                    <img loading="lazy" src="images/student_typing_keyboard_text_woman_startup_business_people-710502-min.jpg"/>
+                                                    <img loading="lazy" src="images/student_typing_keyboard_text_woman_startup_business_people-710502-min.jpg" alt="woman typing"/>
                                                 </div>
                                             </div>
                                             <div class="blog-item-brief">
@@ -710,7 +710,7 @@
                                         <div class="blog blog-item">
                                             <div class="blog-item-thumbnail">
                                                 <div class="blog-item-bg">
-                                                    <img loading="lazy" src="images/toptal2.png"/>
+                                                    <img loading="lazy" src="images/toptal2.png" alt="toptal"/>
                                                 </div>
                                             </div>
                                             <div class="blog-item-brief">
@@ -719,7 +719,7 @@
                                                 <small class="text-muted">Oct 28, 2020</small>
 
                                                 <div class="primary-btn-box blog-brief-btn">
-                                                     <a href="https://toptal.com/front-end#hiring-guide" target="_blank">Read more</a>
+                                                     <a href="https://toptal.com/front-end#hiring-guide" target="_blank" rel="noopener">Read more</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -743,37 +743,37 @@
                             <ul class="slides">
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/procrew.jpeg" class="pr-logo" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/procrew.jpeg" class="pr-logo" alt="">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/logo/1.png" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/logo/1.png" alt="">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/logo/2.png" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/logo/2.png" alt="">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/logo/3.png" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/logo/3.png" alt="">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/logo/4.png" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/logo/4.png" alt="">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/logo/5.png" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/logo/5.png" alt="">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="col-md-2">
-                                        <img loading="lazy" src="images/logo/6.png" alt="">
+                                        <img loading="lazy" width="120" height="60" src="images/logo/6.png" alt="">
                                     </div>
                                 </li>
                                 
@@ -834,7 +834,7 @@
                                 <span><i class="fas fa-map-marker fa-lg"></i>Al Seyouf, Alexandria, Egypt.</span>
                                 <span><i class="fas fa-phone fa-lg"></i>(0020)1152559760</span>
                                 <span><i class="fas fa-envelope fa-lg"></i><a href="mailto:mahmoudfarargy9@gmail.com">mahmoudfarargy9@gmail.com</a></span>
-                                <span><i class="fas fa-globe fa-lg"></i><a href="https://mahmoudportfolio.netlify.app" target="_blank">mahmoudportfolio.netlify.com</a></span>
+                                <span><i class="fas fa-globe fa-lg"></i><a href="https://mahmoudportfolio.netlify.app" target="_blank" rel="noopener">mahmoudportfolio.netlify.com</a></span>
                             </address>
                         </div>
                     </div>
@@ -854,10 +854,10 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="social-icons">
-                            <a title="Instagram" href="https://www.instagram.com/codepugilist/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-                            <a title="Codepen" href="https://codepen.io/mahmoud-farargy/pens/public"target="_blank"><i class="fab fa-codepen fa-lg"></i></a>
-                            <a title="FreeCodeCamp" href="https://www.freecodecamp.org/farargy" target="_blank"><i class="fab fa-free-code-camp fa-lg"></i></a>
-                            <a title="Github" href="http://github.com/Mahmoud-farargy" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                            <a title="Instagram" href="https://www.instagram.com/codepugilist/" target="_blank" rel="noopener"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a title="Codepen" href="https://codepen.io/mahmoud-farargy/pens/public"target="_blank" rel="noopener"><i class="fab fa-codepen fa-lg"></i></a>
+                            <a title="FreeCodeCamp" href="https://www.freecodecamp.org/farargy" target="_blank" rel="noopener"><i class="fab fa-free-code-camp fa-lg"></i></a>
+                            <a title="Github" href="http://github.com/Mahmoud-farargy" target="_blank" rel="noopener"><i class="fab fa-github fa-lg"></i></a>
                         </div>
                         <div class="spacer-single"></div>
                         © Copyright <span id="currYear"></span> - Mahmoud Farargy
@@ -890,8 +890,8 @@
                                         <div class="modal-body">
                                             <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
                                                     <div class="d-flex mb-2">
-                                                    <a class="btn btn-outline-primary" href="https://mahmoud-farargy.github.io/vhouse_html_email/" target="_blank" style="margin-right:20px;">Visit Email</a> 
-                                                    <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/vhouse_html_email" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                    <a class="btn btn-outline-primary" href="https://mahmoud-farargy.github.io/vhouse_html_email/" target="_blank" style="margin-right:20px;" rel="noopener">Visit Email</a> 
+                                                    <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/vhouse_html_email" target="_blank" rel="noopener"><i class="fab fa-github"></i>Github repo</a>
                                                     </div>                                                 
 
                                             </div>
@@ -945,8 +945,8 @@
                                         <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
                                             <div class="d-flex mt-2 mb-3">
                                                  <div class="d-flex my-2 justify-content-center">
-                                                         <a class="btn btn-outline-primary" href="https://spotifyappclone.netlify.app" target="_blank" style="margin-right:20px">Visit App</a>
-                                                         <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/spotify-clone" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                         <a class="btn btn-outline-primary" href="https://spotifyappclone.netlify.app" target="_blank" style="margin-right:20px" rel="noopener">Visit App</a>
+                                                         <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/spotify-clone" target="_blank" rel="noopener"><i class="fab fa-github"></i>Github repo</a>
                                                  </div>                            
 
                                              </div>
@@ -1125,8 +1125,8 @@
                                     <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
                                         <div class="d-flex mt-2 mb-3">
                                              <div class="d-flex my-2 justify-content-center">
-                                                     <a class="btn btn-outline-primary" href="https://instagram-clone-21d9b.web.app" target="_blank" style="margin-right:20px">Visit App</a>
-                                                     <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/instagram-clone" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                     <a class="btn btn-outline-primary" href="https://instagram-clone-21d9b.web.app" target="_blank" style="margin-right:20px" rel="noopener">Visit App</a>
+                                                     <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/instagram-clone" target="_blank" rel="noopener"><i class="fab fa-github"></i>Github repo</a>
                                              </div>                            
 
                                          </div>
@@ -1167,8 +1167,8 @@
                                                 </div>
                                                 <div class="d-flex flex-wrap-wrap flex-column justify-content-center align-items-center">
                                                     <div class="d-flex my-2 justify-content-center">
-                                                        <a class="btn btn-outline-primary" href="https://weatherapp-63ab1.web.app" target="_blank" style="margin-right:20px">Visit App</a>
-                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/weather_app" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                        <a class="btn btn-outline-primary" href="https://weatherapp-63ab1.web.app" target="_blank" style="margin-right:20px" rel="noopener">Visit App</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/weather_app" target="_blank" rel="noopener"><i class="fab fa-github"></i>Github repo</a>
                                                     </div>                                              
                                                 </div>
                                             </div>
@@ -1207,8 +1207,8 @@
                                                 </div>
                                                 <div class="d-flex flex-wrap-wrap flex-column pt-3 justify-content-center align-items-center">
                                                     <div class="d-flex my-2 justify-content-center">
-                                                        <a class="btn btn-outline-primary" href="https://blogiva.web.app/" target="_blank" style="margin-right:20px">Visit Website</a>
-                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Blogiva" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                        <a class="btn btn-outline-primary" href="https://blogiva.web.app/" target="_blank" style="margin-right:20px" rel="noopener">Visit Website</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/Blogiva" target="_blank" rel="noopener"><i class="fab fa-github"></i>Github repo</a>
                                                     </div>                                              
                                                 </div>
                                             </div>
@@ -1240,8 +1240,8 @@
                                             <div class="modal-body">
                                                 <div class="d-flex flex-wrap-wrap flex-column pt-3 justify-content-center align-items-center">
                                                     <div class="d-flex my-2 justify-content-center">
-                                                        <a class="btn btn-outline-primary" href="https://mahmoud-farargy.github.io/ecommerce-website/" target="_blank" style="margin-right:20px">Visit Website</a>
-                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/ecommerce-website" target="_blank"><i class="fab fa-github"></i>Github repo</a>
+                                                        <a class="btn btn-outline-primary" href="https://mahmoud-farargy.github.io/ecommerce-website/" target="_blank" style="margin-right:20px" rel="noopener">Visit Website</a>
+                                                        <a class="btn btn-outline-primary" href="https://github.com/Mahmoud-farargy/ecommerce-website" target="_blank" rel="noopener"><i class="fab fa-github"></i>Github repo</a>
                                                     </div>                                              
                                                 </div>
                                             </div>

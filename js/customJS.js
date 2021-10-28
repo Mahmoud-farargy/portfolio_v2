@@ -2,6 +2,7 @@
 
 $(document).ready(()=>{
     // set current year in copyright text
+    // day/night handling
     const inputEl = $("#dNSwitch input");
     inputEl.prop("checked", true);
     inputEl.change(function(k){
@@ -23,7 +24,7 @@ $(document).ready(()=>{
           
         }
     });
-    
+    // animation on scroll
     jQuery(function ($) {
 
       $.supersized({
@@ -43,6 +44,7 @@ $(document).ready(()=>{
 
       });
   });
+    //  slides
   // $(document).ready(()=>{
       const splideOptions = {
           type  : 'loop',

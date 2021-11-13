@@ -141,10 +141,10 @@ jQuery(document).ready(function() {
 		$container.isotope({ 
 		filter: selector,
 	});
-	setTimeout(() =>{
-			$("#filters")[0]?.scrollIntoView(true);
-			window.scrollBy(0,-100);
-	}, 600);
+	// setTimeout(() =>{
+	// 		$("#filters")[0]?.scrollIntoView(true);
+	// 		window.scrollBy(0,-100);
+	// }, 600);
 	return false;
 	});
 		

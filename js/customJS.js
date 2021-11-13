@@ -45,7 +45,6 @@ $(document).ready(()=>{
       });
   });
     //  slides
-  // $(document).ready(()=>{
       const splideOptions = {
           type  : 'loop',
           autoplay    : true,
@@ -64,8 +63,9 @@ $(document).ready(()=>{
       new Splide( ".weatherCarousel", splideOptions).mount();
       new Splide( ".blogivaCarousel", splideOptions).mount();
       new Splide( ".luxashopCarousel", splideOptions).mount();
-      
-// });
+      new Splide( ".netflixCarousel", splideOptions).mount();
+      new Splide( ".dictionaryCarousel", splideOptions).mount();
+      new Splide( ".wordBeaterCarousel", splideOptions).mount();
     $("#currYear").text(new Date().getFullYear());
     // -------------
     // handle day and night theme change
